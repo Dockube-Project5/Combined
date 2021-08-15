@@ -12,3 +12,12 @@
 ```
       > kubectl service sidecar --namespace=dockube
 ```
+
+# To check Logs
+``` 
+       > kubectl logs <pod name> -c <container name> --namespace=dockube     
+``` 
+###example
+``` 
+       > kubectl logs sidecar-8444b7bb88-nb4fl -c kartik --namespace=dockube       
+``` 
