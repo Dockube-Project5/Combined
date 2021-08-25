@@ -10,7 +10,7 @@
        > kubectl apply -f sidecar.yaml       
 ```
 ```
-      > kubectl service sidecar --namespace=dockube
+      > minikube service sidecar --namespace=dockube
 ```
 
 # To check Logs
